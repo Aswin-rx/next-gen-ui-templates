@@ -6,7 +6,6 @@ import Login from '../pageComponents/Login/Login';
 const HomePage = () => {
   return (
     <div>
-        
         <Home/>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Registration.css"; // Include your CSS file
-import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"; // Font Awesome
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+// Font Awesome
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({

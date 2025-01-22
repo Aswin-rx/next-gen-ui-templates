@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./login.css";
-import "../css/main.css"
-import "../css/util.css"
+import "../Home/main.css"
+import "../Home/util.css"
 import "../vendor/bootstrap/css/bootstrap.min.css"
 import "../fonts/font-awesome-4.7.0/css/font-awesome.min.css"
 import "../fonts/iconic/css/material-design-iconic-font.min.css"
@@ -76,9 +77,7 @@ const Login = () => {
 
             <div className="flex-col-c p-t-155">
               <span className="txt1 p-b-17">Or Sign Up Using</span>
-              <a href="Registration.jsx" className="txt2">
-                Sign Up
-              </a>
+              <Link to="/registration" className="txt2">Sign Up</Link>
             </div>
           </form>
         </div>

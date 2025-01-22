@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './main.css';
+import './util.css';
 import './Home.css'; // Import the CSS file for styles
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faSearch, faLongArrowAltRight, faStar } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +21,7 @@ const App = () => {
           <div className="content">
             <div className="logo">
               <a href="index.html">
-                <img src="src/components/images/biblelogo.jpg" alt="Logo" />
+                <img src="src\components\images\biblelogo.jpg" alt="Logo" />
               </a>
             </div>
             <ul className="links">
@@ -32,10 +35,10 @@ const App = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href="login.html">Login</a>
+                <Link to="/Login">Login</Link>
               </li>
               <li>
-                <a href="video.html">Videos</a>
+              <Link to="/videos">videos</Link>
               </li>
             </ul>
           </div>
