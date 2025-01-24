@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './main.css';
 import './util.css';
 import './Home.css'; // Import the CSS file for styles
+import logo from '../../assets/static/images/biblelogo.jpg';
+import bibleabt from '../../assets/static/images/bibleabt.avif';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faSearch, faLongArrowAltRight, faStar } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebookF, faInstagram, faYoutube, faPinterestP } from '@fortawesome/free-brands-svg-icons';
@@ -21,7 +23,7 @@ const App = () => {
           <div className="content">
             <div className="logo">
               <a href="index.html">
-                <img src="src\components\images\biblelogo.jpg" alt="Logo" />
+                <img src={logo} alt="Logo" />
               </a>
             </div>
             <ul className="links">
@@ -68,7 +70,7 @@ const App = () => {
       {/* About Section Start */}
       <section className="about" id="about">
         <div className="about-img">
-          <img src="images/bibleabt.avif" alt="About Us" />
+          <img src={bibleabt} alt="About Us" />
         </div>
         <div className="about-text">
           <h3>About us</h3>
