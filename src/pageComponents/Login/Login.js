@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import "./login.css";
 import "../Home/main.css"
 import "../Home/util.css"
-import "../vendor/bootstrap/css/bootstrap.min.css"
-import "../fonts/font-awesome-4.7.0/css/font-awesome.min.css"
-import "../fonts/iconic/css/material-design-iconic-font.min.css"
-import "../vendor/animate/animate.css"
-import "../vendor/animsition/css/animsition.min.css"
-import "../vendor/daterangepicker/daterangepicker.css"
-import "../vendor/select2/select2.min.css"
+import "../../assets/static/vendor/bootstrap/css/bootstrap.min.css"
+import "../../assets/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+import "../../assets/static/fonts/iconic/css/material-design-iconic-font.min.css"
+import "../../assets/static/vendor/animate/animate.css"
+import "../../assets/static/vendor/animsition/css/animsition.min.css"
+import "../../assets/static/vendor/daterangepicker/daterangepicker.css"
+import "../../assets/static/vendor/select2/select2.min.css"
 const Login = () => {
   return (
     <div className="limiter">

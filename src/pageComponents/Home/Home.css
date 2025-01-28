@@ -199,11 +199,11 @@ nav .content .links li{
 
 
 
-/* Home Section Start */
+/* Home Section Start */ 
 .home{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../../components/images/cross.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../../assets/static/images/bg-cross.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -344,7 +344,7 @@ nav .content .links li{
 .banner{
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../components/images/biblebanner2.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../assets/static/images/biblebanner2.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -581,13 +581,12 @@ form textarea{
     font-weight: 550;
     letter-spacing: 1px;
 }
-.socail-links i{
+.socail-links {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
-    background: black;
-    color: white;
+    color: black;
     margin-left: 10px;
     margin-bottom: 10px;
     transition: 0.5s ease;

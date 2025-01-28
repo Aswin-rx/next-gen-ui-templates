@@ -5,6 +5,10 @@ import './util.css';
 import './Home.css'; // Import the CSS file for styles
 import logo from '../../assets/static/images/biblelogo.jpg';
 import bibleabt from '../../assets/static/images/bibleabt.avif';
+import pic1 from '../../assets/static/images/pic-1.png';
+import pic2 from '../../assets/static/images/pic-2.png';
+import pic3 from '../../assets/static/images/pic-3.png';
+import arrow from '../../assets/static/images/up-arrow.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faSearch, faLongArrowAltRight, faStar } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faFacebookF, faInstagram, faYoutube, faPinterestP } from '@fortawesome/free-brands-svg-icons';
@@ -129,7 +133,7 @@ const App = () => {
           {/* Customer Box */}
           <div className="box">
             <div className="img">
-              <img src="./images/pic-1.png" alt="Mark" />
+              <img src={pic1} alt="Mark" />
             </div>
             <h3>Mark</h3>
             <div className="star">
@@ -147,7 +151,7 @@ const App = () => {
 
           <div className="box">
             <div className="img">
-              <img src="./images/pic-2.png" alt="Sarah" />
+              <img src={pic2} alt="Sarah" />
             </div>
             <h3>Sarah</h3>
             <div className="star">
@@ -165,7 +169,7 @@ const App = () => {
 
           <div className="box">
             <div className="img">
-              <img src="./images/pic-3.png" alt="John" />
+              <img src={pic3} alt="John" />
             </div>
             <h3>John</h3>
             <div className="star">
@@ -189,7 +193,7 @@ const App = () => {
       <footer id="footer">
         <div className="footer-content">
           <div className="logo">
-            <img src="images/biblelogo.jpg" alt="Footer Logo" />
+            <img src={logo} alt="Footer Logo" />
           </div>
 
           <p>
@@ -210,7 +214,7 @@ const App = () => {
 
       <a href="#" className="arrow">
         <i>
-          <img src="./images/up-arrow.png" alt="Up arrow" width="50px" />
+          <img src={arrow} alt="Up arrow" width="50px" />
         </i>
       </a>
     </div>

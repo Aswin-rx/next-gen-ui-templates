@@ -13,12 +13,13 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
-    assetModuleFilename: 'assets/[hash][ext][query]',
+    assetModuleFilename: 'assets/[name][ext]', // No hashing for assets
     clean: true, // Clean old files in the 'dist' directory
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public", "index.html"),
+      favicon: path.join(__dirname, "src", "assets", "static", "images", "icons", "favicon.ico"),
       minify: {
         collapseWhitespace: true,
         removeComments: true,
@@ -74,6 +75,7 @@ module.exports = {
           {
             loader: 'file-loader',
           },
+  
           {
             loader: 'image-webpack-loader',
             options: {
