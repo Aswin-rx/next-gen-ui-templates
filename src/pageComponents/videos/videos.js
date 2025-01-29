@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Video.css";
+import "./video.css";
 import "../Home/main.css";
 import "../Home/util.css";
 import arrow from '../../assets/static/images/up-arrow.png';
